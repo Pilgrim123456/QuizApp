@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    font-family: roboto;
+    padding: 0;
+}
+
+body {
+
+    background-image: linear-gradient( #1A759F,#032B44 )
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.85); /* Semi-transparent black */
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background: #ff5733;
+    box-shadow: 0 5px 15px rgba(255, 87, 51, 0.4);
+  }
+  

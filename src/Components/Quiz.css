@@ -1,0 +1,55 @@
+.container {
+
+  width: 600px;
+  margin: auto;
+  margin-top: 149px;
+  background-color: white;
+  color: #262626;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  border-radius: 9px;
+  padding: 39px 49px;
+}
+.container hr {
+  height: 2px;
+  border: none;
+  background: gray;
+}
+.container h2 {
+  font-size: 29px;
+  font-weight: 500;
+}
+.container ul li {
+  display: flex;
+  align-items: center;
+  height: 59px;
+  padding-left: 10.5px;
+  border: 1px solid gray;
+  border-radius: 7px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.container button {
+  margin: auto;
+  width: 249px;
+  height: 64px;
+  background: #1a759f;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+.container .index {
+    margin: auto;
+    font-size: 15px;
+}
+.correct {
+  background: rgb(39, 237, 194);
+}
+.wrong {
+  background: red;
+}
